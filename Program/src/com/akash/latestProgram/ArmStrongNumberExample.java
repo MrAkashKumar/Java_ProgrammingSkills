@@ -13,7 +13,7 @@ public class ArmStrongNumberExample {
 		
 		while(n>0) {
 			r = n%10;
-			c = r+c*c*c;
+			c = c+r*r*r;
 			n = n/10;
 		}
 		
